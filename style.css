@@ -4,7 +4,6 @@ body {
   font-family: sans-serif;
   /* box-sizing: border-box; */
   overflow-x: hidden;
- 
 }
 /* Navbar */
 nav .navbar {
@@ -15,7 +14,7 @@ nav .navbar {
   border: none;
 }
 .navbar h2 a {
-  transition:  0.3 ease ;
+  transition: 0.3 ease;
 }
 .navbar h2 a:hover {
   background-color: rgba(52, 44, 28, 0.804);
@@ -163,7 +162,7 @@ section .cate p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
-  
+
   height: 25rem;
   padding: 30px;
   margin: 10px;
@@ -211,43 +210,34 @@ section .cate p {
 }
 /* discount css end */
 
-.delivary .image{
+.delivary .image {
   display: flex;
   justify-content: center;
 }
-.delivary .text{
-  display:inline-block;
+.delivary .text {
+  display: inline-block;
   color: rgb(255, 9, 91);
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 40px;
- 
-
-  
 }
-.delivary .h1tag{
+.delivary .h1tag {
   display: flex;
   justify-content: center;
-  
- 
-  
 }
 /* --------delivery section-------------- */
 
 .deliveryorder {
   display: flex;
   justify-content: space-around;
-  
-  
 }
-.deliveryorder .imgcontainer img{
+.deliveryorder .imgcontainer img {
   margin-left: 50px;
-  
 }
 /*---------- delivary end-------- */
 
 /* ------footer part------------ */
 
-footer{
+footer {
   position: relative;
 }
 footer img {
@@ -255,14 +245,13 @@ footer img {
 }
 footer .leftfooterpart {
   position: absolute;
-  top:200px ;
+  top: 200px;
   left: 40px;
 }
 footer .leftfooterpart a {
   color: white;
   font-size: 45px;
   text-decoration: none;
-
 }
 footer .leftfooterpart p {
   color: white;
@@ -271,28 +260,23 @@ footer .leftfooterpart p {
 .leftfooterpart .kajal {
   color: rgb(255, 116, 9);
 }
-footer .rightfooter  {
+footer .rightfooter {
   position: absolute;
   color: white;
   top: 180px;
   left: 34rem;
-  
-
-
 }
 footer .rightfooter ul li {
   list-style-type: none;
   font-size: 20px;
 }
 footer .rightfooter .rightkajal {
-  
   position: absolute;
   left: 380px;
-  top:1px ;
+  top: 1px;
 }
 .payment {
   display: flex;
   justify-content: end;
   background-color: rgba(0, 0, 0, 0.837);
-  
 }
