@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   /* box-sizing: border-box; */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 /* Navbar */
 nav .navbar {
@@ -118,10 +118,10 @@ section .category {
   overflow: hidden;
   margin-top: 4rem;
 
-  gap: 35px;
+  gap: 10px;
   text-align: center;
   cursor: pointer;
-  /* border: 2px solid; */
+  border: 2px solid;
 }
 section .category .imgcategory .names {
   /* margin-top: 30px; */
