@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   /* box-sizing: border-box; */
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 /* Navbar */
 nav .navbar {
@@ -121,7 +121,7 @@ section .category {
   gap: 10px;
   text-align: center;
   cursor: pointer;
-  border: 2px solid;
+  /* border: 2px solid; */
 }
 section .category .imgcategory .names {
   /* margin-top: 30px; */
@@ -161,15 +161,15 @@ section .cate p {
 .discount {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
+  gap: 10px;
 
   height: 25rem;
-  padding: 30px;
+  padding: 20px;
   margin: 10px;
   margin-top: 4rem;
 }
 .discount .images img {
-  width: 30rem;
+  width: 26.5rem;
   border-radius: 19px;
 }
 .discount .images {
